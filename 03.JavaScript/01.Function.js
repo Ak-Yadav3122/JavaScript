@@ -68,11 +68,14 @@ loginUserMessage("Aichchhik") // this say only return the value.
 
 
 
-function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(...num1){  // ... these three dot are rest operator and these are used for access the multiple value of array
     return num1
 }
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
+
+
+// Access object byy using function
 
 const user = {
     username: "hitesh",
@@ -82,18 +85,34 @@ const user = {
 function handleObject(anyobject){
     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
+ handleObject(user)
 
-// handleObject(user)
+
+
+//Another method for access object by using function
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
 handleObject({
     username: "sam",
     price: 399
 })
 
+
+
+// Access Array by using function
+
 const myNewArray = [200, 400, 100, 600]
 
-function returnSecondValue(getArray){
+function returnSecondValue(getArray){   // At the place of getArray we can write anything
     return getArray[1]
 }
+ console.log(returnSecondValue(myNewArray)); 
 
-// console.log(returnSecondValue(myNewArray));
+// Another method for access Array by using function
+
+function returnSecondValue(getArray){   // At the place of getArray we can write anything
+    return getArray[1]
+}
 console.log(returnSecondValue([200, 400, 500, 1000]));
