@@ -27,7 +27,7 @@ console.log(anotherString); // print the number from reverse side
 
 const newStringOne = "   Aichchhik    "
 console.log(newStringOne); // print the newStringOne
-console.log(newStringOne.trim()); // rempove the unwanted gap
+console.log(newStringOne.trim()); // remove the unwanted gap with the help of trim() method.
 
 const url = "https://google.com/aichchhik%20yadav"
 
