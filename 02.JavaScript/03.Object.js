@@ -27,7 +27,7 @@ const user = {
     lastLoginDays: ["Monday", "Saturday"]
 }
 // There are two ways to access the the key of obejct i.e;
-// (.write which key we want)method and ["write which key we want"] method.
+// (.write which key we want) method and ["write which key we want"] method.
 
 // console.log(user.email)
 // console.log(user["email"])
