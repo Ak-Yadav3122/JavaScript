@@ -13,11 +13,11 @@ const gameName = new String('Aichchhik-ya-com') //another method to make a Strin
 // console.log(gameName.__proto__);
 
 
-// console.log(gameName.length);
-// console.log(gameName.toUpperCase());
-console.log(gameName.charAt(2)); // use to determine what are the alphabate at that place
+// console.log(gameName.length);  // use to find the length of variables.
+// console.log(gameName.toUpperCase()); // use to convert the value of variable in upper case.
+console.log(gameName.charAt(2)); // use to determine what are the alphabet at that place
 
-console.log(gameName.indexOf('h')); // use to find and print the index of any single alphabate 
+console.log(gameName.indexOf('h')); // use to find and print the index of any single alphabet 
 
 const newString = gameName.substring(0, 4)
 console.log(newString); // print the number from 0 to 4
