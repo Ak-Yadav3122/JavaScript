@@ -1,6 +1,6 @@
 // Method to write the funncton
 
-// Methood :- 1
+// Method :- 1
 
 function sayMyName(){
     console.log("A");
@@ -16,7 +16,7 @@ function sayMyName(){
 // sayMyName()
 
 
-// Methood :- 2 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Method :- 2 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 // function addTwoNumbers(number1, number2){
@@ -26,7 +26,7 @@ function sayMyName(){
 // addTwoNumbers(3, 5)
 
 
-// Methood :- 3 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Method :- 3 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 function addTwoNumbers(number1, number2){
 
@@ -39,7 +39,7 @@ const result = addTwoNumbers(3, 5)
 // console.log("Result: ", result);
 
 
- // Methood :- 4  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ // Method :- 4  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
  function addTwoNumbers(number1, number2){
 
