@@ -1,3 +1,4 @@
+// We can identify the type of any things with the help of (typeof)
 let number = 33
 //console.log(typeof (number));
 
