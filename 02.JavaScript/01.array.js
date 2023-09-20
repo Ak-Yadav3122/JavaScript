@@ -1,15 +1,17 @@
-// array
+// Array
 
+//method one to write the array
 const myArr = [0, 1, 2, 3, 4, 5]
 
+//second method to write the array with the help of new keyword
 const myArr2 = new Array(1, 2, 3, 4)
-// console.log(myArr[1]);
+// console.log(myArr[1]); // output = 2
 
 // Array methods
 
-// myArr.push(6)  
+// myArr.push(6)  // Push the 6 into the array.
 // myArr.push(7)
-// myArr.pop()
+// myArr.pop() // pop the element from an array and in the pop method we can not pass any value it removes the last element of the array automatically.
 
 //  myArr.unshift(9) 
 // myArr.shift()
