@@ -1,6 +1,7 @@
 /* 
   It is represented by {}
-  Global scope are totally difference in window console and in node terminal.
+  Global scope is totally different in the window console and in the node terminal.
+  Child block can access the parent block  element but we can not access child block from parent block
  */
 
 //var c = 300
