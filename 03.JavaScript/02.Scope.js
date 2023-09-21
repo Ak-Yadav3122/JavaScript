@@ -1,7 +1,8 @@
 /* 
+  Scope is generally two types one is global scope and another is Block scope. Block scope is used in function , if statement etc.
   It is represented by {}
   Global scope is totally different in the window console and in the node terminal.
-  Child block can access the parent block  element but we can not access child block from parent block
+  The child block can access the parent block  element but the parent block can not access elements or variables from the child block
  */
 
 //var c = 300
@@ -49,18 +50,22 @@ if (true) {
 // console.log(username);
 
 
-// ++++++++++++++++++ Interesting ++++++++++++++++++
+// ++++++++++++++++++ Interesting Concept of Hosting ++++++++++++++++++
 
 
-console.log(addone(5))
+// Hosting is used for a normal function if any variable hold the function then hosting method are not used there.
 
-function addone(num){
+
+console.log(addOne(5))
+                                                        // This gives output due to hosting 
+function addOne(num){
     return num + 1
 }
 
 
 
-addTwo(5)
+console.log(addTwo(5))
+                                                       // This does not give the output because the variable holds the function
 const addTwo = function(num){
     return num + 2
 }
