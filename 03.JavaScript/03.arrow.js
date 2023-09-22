@@ -3,7 +3,7 @@ const user = {
     price: 1999,
 
     welcomeMessage: function() {
-        console.log(`${this.username} , welcome to website`);
+        console.log(`${this.username} , welcome to website`);  // this key word are used to access the value of any variable and it have block scope 
         console.log(this);
     }
 
@@ -27,7 +27,7 @@ const user = {
 //     console.log(this.username);
 // }
 
-const chai =  () => {
+const chai =  () => {                       // Syntax of arrow function are () =>
     let username = "Aichchhik"
     console.log(this);
 }
@@ -37,7 +37,7 @@ const chai =  () => {
 
 //+++++++++++++++++++++++++++++++++++ Method to write Arrow Function +++++++++++++++++++++++++++++++++++
 
-// If we return the value then we use curlybracket{}
+// If we return the value then we have to use the curlybracket{}
 
 const addNum = (num1, num2) => {
     return num1 + num2
