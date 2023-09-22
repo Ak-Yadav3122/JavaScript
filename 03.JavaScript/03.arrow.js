@@ -3,7 +3,10 @@ const user = {
     price: 1999,
 
     welcomeMessage: function() {
-        console.log(`${this.username} , welcome to website`);  // this key word are used to access the value of any variable and it have block scope 
+        
+        console.log(`${this.username} , welcome to website`);  // this key word is used to access the value of any variable and the value of
+                                                               // this depends on in which context it appears: function, class, or global.
+        
         console.log(this);
     }
 
