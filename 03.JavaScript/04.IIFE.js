@@ -4,7 +4,7 @@
            prevent from any type of pollution or variable that effect the function which come from the global scope.
            So it make its own scope and prevent the function
    
-   Once a IIFE are executed it will not stop autometically we have to stop that by using semicolon(;)
+   Once a IIFE are executed it will not stop autometically we have to stop that by using semicolon(;) before making another IIFE  
    There are two type of IIFE , one is named IIFE and another is normal or simple IIFE
    Syntax of IIFE = ()() where first parentheses is used for function definition,
                               second paremtheses is used for execution call
