@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur Javascript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+
+  <!--  Code to print the name and stop the name wheen we click on start and stop button -->
+
+<script>
+    
+    //++++++++++++++++First Method+++++++++++++++++++++
+
+    // const start = document.querySelector("#start").addEventListener('click',function(){
+    //  const internal = setInterval(function(){
+    //     console.log("aichchhik",Date.now());  
+    //   },1000)  
+
+    //  const stop = document.querySelector("#stop").addEventListener('click',function(){
+    //   clearInterval(internal);  
+    //   })   
+    // })
+
+    //++++++++++++++++++Second Method+++++++++++++++++++++
+
+    let stopInterval
+    const start = function(){
+        if(!stopInterval){
+            stopInterval=setInterval(changeInterVal,1000) 
+        }
+        function changeInterVal(){
+            console.log("Aichchhik",Date.now()); 
+        }
+    } 
+    const stop = function(){
+        clearInterval(stopInterval)
+        stopInterval=null;
+    }
+    document.querySelector("#start").addEventListener("click",start)
+    document.querySelector("#stop").addEventListener("click",stop)
+</script>
+</html>
