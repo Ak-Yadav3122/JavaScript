@@ -6,7 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>This is about XMLHttpRequest:Ready state </h1>
+    <img src="">
 </body>
 <script>
     const requestURL = "https://api.github.com/users/Ak-Yadav3122"
@@ -14,7 +15,10 @@
     XHR.open("GET", requestURL)
     XHR.onreadystatechange = function(){
         console.log(XHR.readyState);
-        if(XHR.readyState ===4){
+
+        //Note= Here we write XHR.readyState === 4 because When readyState property is 4 then the response is ready. 
+
+        if(XHR.readyState ===4){ 
           const myData = JSON.parse(this.responseText)
           console.log(typeof myData)
           console.log(myData.name);
