@@ -5,7 +5,12 @@ function SetUsername(username){
 }
 
 function createUser(username, email, password){
-    SetUsername.call(this, username)   //.call method are used to call the context
+    /*
+     .call method is used to call the context and when we use the .call we have to 
+      pass this as the first parameter
+      
+    */
+    SetUsername.call(this, username)   
    
     this.email = email
     this.password = password
